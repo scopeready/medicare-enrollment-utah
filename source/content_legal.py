@@ -13,13 +13,14 @@ FAQ_PAGE = [
     ("Can Utah help pay my Part B premium?", "Possibly. Utah&rsquo;s Medicare Savings Programs (QMB, SLMB, QI) pay the Part B premium for people with limited income and resources, and QMB also covers Medicare&rsquo;s deductibles and copays. Apply through the Department of Workforce Services at jobs.utah.gov/mycase, or call Utah SHIP at 800-541-7735."),
     ("Where can I get free, unbiased Medicare counseling in Utah?", "Utah SHIP, the Senior Health Insurance Information Program run by the Division of Aging and Adult Services and the county aging offices: 800-541-7735. You can also call 1-800-MEDICARE or use Medicare.gov. We are an independent agency, not a government program, and we say so on every page."),
     ("Do you offer every plan available in my area?", "No. We represent a number of insurance organizations and products in Utah, not all of them, and we will always say so. For the complete list, use Medicare.gov, 1-800-MEDICARE or Utah SHIP. For help choosing among the plans we do offer, call [[PHONE]]."),
+    ("Where can I verify your Utah license?", "Darin Weidauer holds Utah insurance license #713009 (NPN 18580338). You can verify it through the Utah Department of Insurance license lookup or through the NIPR."),
     ("Do you meet in person?", "We work with Utahns statewide by phone and video, which is how most people prefer it. Our sister agency has walk-in offices in Mesa and Sun City, Arizona, for snowbirds."),
 ]
 
 ABOUT_BODY = """<div class="author" style="margin-bottom:2rem">
 <img class="author__photo" src="/darin.jpg" width="600" height="600" alt="Darin Weidauer, independent Medicare insurance agent and credentialed gerontologist" loading="lazy" decoding="async">
 <div>
-<ul class="creds"><li>NPN 18580338 · licensed in Utah</li><li>Credentialed gerontologist (2014)</li><li>Registered Social Security Analyst&reg;</li><li>MBA, Pepperdine</li><li>Master&rsquo;s in Long-Term Care, USC</li><li>22-yr USAF veteran (retired officer)</li></ul>
+<ul class="creds"><li>UT License #713009 · NPN 18580338</li><li>Credentialed gerontologist (2014)</li><li>Registered Social Security Analyst&reg;</li><li>MBA, Pepperdine</li><li>Master&rsquo;s in Long-Term Care, USC</li><li>22-yr USAF veteran (retired officer)</li></ul>
 <p>Darin Weidauer is an independent Medicare insurance agent, credentialed gerontologist, and Registered Social Security Analyst&reg; who helps Utah retirees and people approaching 65 make sense of their Medicare options &mdash; clearly, patiently, and with no cost to them.</p>
 </div></div>
 <h2>Background</h2>
@@ -29,7 +30,7 @@ ABOUT_BODY = """<div class="author" style="margin-bottom:2rem">
 <p>ECOS Medicare Solutions is an independent agency: appointed with a number of Medicare Advantage, Medigap and Part D carriers in Utah, employed by none of them. When you enroll in a plan through us, the carrier pays us a commission. That commission comes out of the carrier&rsquo;s filed rate &mdash; it is never added to your premium. You pay the same whether you enroll through us, through another agent, or directly with the insurer; going direct does not make a policy cheaper, and using us does not make it dearer.</p>
 <p>We do not represent every plan sold in Utah, and we say so on every page. For a complete list, use Medicare.gov, 1-800-MEDICARE, or Utah SHIP (800-541-7735), the state&rsquo;s free and independent counseling program.</p>
 <h2>Licensing</h2>
-<p>Darin is a licensed insurance agent in Utah and fourteen other states &mdash; Arizona, California, Colorado, Florida, Georgia, Minnesota, Nevada, New Mexico, North Carolina, Ohio, South Carolina, Tennessee, Texas and Washington &mdash; under National Producer Number 18580338, which you can verify with the Utah Insurance Department or the NIPR. The multi-state licence is what lets us follow Utah <a href="/snowbirds">snowbirds</a> to Mesquite and Arizona.</p>
+<p>Darin Weidauer holds <strong>Utah insurance license #713009</strong> and is a licensed insurance agent in Utah and fourteen other states &mdash; Arizona, California, Colorado, Florida, Georgia, Minnesota, Nevada, New Mexico, North Carolina, Ohio, South Carolina, Tennessee, Texas and Washington &mdash; under National Producer Number 18580338, which you can verify with the Utah Insurance Department or the NIPR. The multi-state licence is what lets us follow Utah <a href="/snowbirds">snowbirds</a> to Mesquite and Arizona.</p>
 <h2>Where else you will find him</h2>
 <ul>
 <li><a href="https://www.myecos360.com/darin-weidauer" rel="noopener">Author page at MyECOS360</a> &mdash; the canonical profile</li>
@@ -66,7 +67,7 @@ TERMS_BODY = """<p style="color:var(--ink-soft)"><em>Last updated: September 4, 
 <h2>Informational purpose</h2>
 <p>The Site provides general information about Medicare to help you make decisions. It is not legal, tax or medical advice, and it is not a substitute for the official Medicare program or for Utah&rsquo;s free counseling program, SHIP. Medicare plan availability, costs and rules change and vary by county.</p>
 <h2>Insurance offered through a licensed agent</h2>
-<p>Insurance products referenced on the Site are offered through a licensed insurance agent (Darin Weidauer, NPN 18580338, licensed in Utah). Enrollment is subject to plan terms and eligibility. We do not offer every plan available in your area.</p>
+<p>Insurance products referenced on the Site are offered through a licensed insurance agent (Darin Weidauer, Utah insurance license #713009, NPN 18580338). Enrollment is subject to plan terms and eligibility. We do not offer every plan available in your area.</p>
 <h2>No guarantee of accuracy</h2>
 <p>We work to keep figures current and cite the year and source, but we do not warrant that all information is complete, current or error-free. Always confirm details with the official sources noted on the Site.</p>
 <h2>External links</h2>
