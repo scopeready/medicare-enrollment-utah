@@ -12,6 +12,8 @@ SITE = dict(
     org="ECOS Medicare Solutions", state="Utah", abbr="UT", demonym="Utahns",
     # TODO(Darin): swap for a Utah (801 / 385 / 435) number.
     phone="(702) 706-6564", tel="+17027066564", email="darinweidauer@ecos.care", npn="18580338",
+    # Utah requires... the producer licence number is shown beside Darin's name site-wide via the engine.
+    state_license="713009", state_license_label="UT License",
     web3forms_key="fc793a1c-1dd6-4a2e-9078-e907c4ab0428", quote_url="https://planenroll.com/?purl=Darin-Weidauer",
     plan_year=2026, iso=TODAY.isoformat(), reviewed=TODAY.strftime("%B %-d, %Y"),
     fig=dict(partb="$202.90", partb_ded="$283", parta_ded="$1,736", partd_cap="$2,100", partd_ded="$615", partd_base="$38.99", irmaa_single="$109,000", irmaa_joint="$218,000"),
@@ -48,7 +50,8 @@ SITE = dict(
                   title="Utah Medicare FAQ [[YEAR]] | ECOS Medicare Solutions",
                   desc="Plain answers to the Medicare questions Utahns ask most: Intermountain vs University of Utah networks, Select Health, Medigap rules, St. George snowbirds, Hill AFB and TRICARE, and 2026 costs."),
     llm_summary="Free, plain-English Medicare guidance for Utah retirees and people approaching 65. Compare Medicare Advantage, Medicare Supplement (Medigap) and Part D drug plans with a credentialed, independent agent at no cost. Statewide service by phone and video, from Logan and Ogden through the Salt Lake and Utah valleys to St. George and Moab.",
-    llm_facts=["Utah uses the federal Medigap plan letters (A–N) and has no birthday or anniversary rule; the Utah Insurance Department regulates Medigap and publishes a plan comparison tool. Utah does not require insurers to sell Medigap to people under 65; a few companies choose to.",
+    llm_facts=["Darin Weidauer holds Utah insurance license #713009 (NPN 18580338).",
+               "Utah uses the federal Medigap plan letters (A–N) and has no birthday or anniversary rule; the Utah Insurance Department regulates Medigap and publishes a plan comparison tool. Utah does not require insurers to sell Medigap to people under 65; a few companies choose to.",
                "Utah's care is dominated by two systems, Intermountain Health and University of Utah Health, plus MountainStar (HCA) and Holy Cross (CommonSpirit); Select Health is Intermountain's insurance arm, so the Advantage choice usually starts with which system a family uses.",
                "Utah's SHIP is the Senior Health Insurance Information Program, run by the Utah Department of Health and Human Services' Division of Aging and Adult Services with county aging offices: 800-541-7735.",
                "Utah Medicaid is run by the Department of Health and Human Services; eligibility for seniors is determined by the Department of Workforce Services (apply at jobs.utah.gov/mycase or 1-866-435-7414). Medicare Savings Programs (QMB, SLMB, QI) use the federal income and resource limits and automatically qualify the enrollee for Part D Extra Help.",
@@ -83,7 +86,7 @@ HOME = dict(
     eyebrow="Medicare made clear · Statewide in Utah",
     h1="Medicare in Utah, explained by someone who actually teaches it.",
     sub="Turning 65, retiring, or wondering whether the plan built around your hospital system still fits? Sit down with a credentialed independent agent who will walk you through Medicare Advantage, Medigap and Part D in plain English &mdash; patiently, and at no cost to you.",
-    trust=[(ICON('<path d="M12 2l8 4v6c0 5-3.5 8.5-8 10-4.5-1.5-8-5-8-10V6z"/>'), "Licensed in Utah (NPN 18580338)"),
+    trust=[(ICON('<path d="M12 2l8 4v6c0 5-3.5 8.5-8 10-4.5-1.5-8-5-8-10V6z"/>'), "Licensed in Utah &middot; UT License #713009 &middot; NPN 18580338"),
            (ICON('<path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c0 1 3 3 6 3s6-2 6-3v-5"/>'), "Gerontologist &amp; RSSA&reg;"),
            (ICON('<circle cx="12" cy="8" r="5"/><path d="M8 13l-2 9 6-4 6 4-2-9"/>'), "22-year U.S. Air Force veteran"),
            (ICON('<path d="M20 6L9 17l-5-5"/>'), "Always free to you")],
@@ -104,7 +107,7 @@ HOME = dict(
         ("Chronic conditions &amp; facility care", "Chronic Special Needs Plans for diabetes, heart or lung disease, and Institutional SNPs for people in a nursing facility.", "/chronic-snp", "About C-SNPs"),
     ],
     guide_p="A clear, step-by-step walk-through of your enrollment windows, the Utah-specific choices in front of you, and the deadlines that carry a lifelong penalty if you miss them. No sign-up required.",
-    author_html=("<p>Darin Weidauer is an independent Medicare insurance agent, credentialed gerontologist, and Registered Social Security Analyst&reg; who helps Utah retirees and people approaching 65 make sense of their options &mdash; clearly, patiently, and with no cost to them. A 22-year U.S. Air Force veteran who retired as an officer, Darin holds five master&rsquo;s degrees, including an MBA and a Master&rsquo;s in Dispute Resolution from Pepperdine and a Master&rsquo;s in Long-Term Care from USC, and became a credentialed gerontologist in 2014 &mdash; studying the human side of aging, not just the paperwork.</p>"
+    author_html=("<p>Darin Weidauer (UT License #713009) is an independent Medicare insurance agent, credentialed gerontologist, and Registered Social Security Analyst&reg; who helps Utah retirees and people approaching 65 make sense of their options &mdash; clearly, patiently, and with no cost to them. A 22-year U.S. Air Force veteran who retired as an officer, Darin holds five master&rsquo;s degrees, including an MBA and a Master&rsquo;s in Dispute Resolution from Pepperdine and a Master&rsquo;s in Long-Term Care from USC, and became a credentialed gerontologist in 2014 &mdash; studying the human side of aging, not just the paperwork.</p>"
                  "<p>A former Professor of Aerospace Studies at Loyola Marymount University who has lectured at more than 50 colleges and universities, Darin now channels that teaching instinct into plain-English Medicare education through one-on-one reviews, no-cost workshops, and his book <em>Retire With Confidence</em>. <a href=\"/about\">More about Darin &rarr;</a></p>"),
     areas_lede="We work with Utahns by phone and video across all 29 counties. Find Medicare guidance for your city:",
     bases_lede="Near Hill Air Force Base? We help military retirees coordinate TRICARE, VA care and Medicare:",
